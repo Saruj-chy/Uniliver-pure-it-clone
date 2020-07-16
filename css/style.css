@@ -1,5 +1,32 @@
-/* #4b5bdd */
-/* #0a213d    carousel cplor */ 
+
+
+.navbar-header{
+  background-color: #0619b6;
+}
+.navbar-header2{
+  background-color: #4b5bdd ;
+  height: 45px;
+}
+.header2-list, .header2-ul-list{
+  position: relative;
+  bottom: 5px;
+}
+
+.header2-list{
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    
+  }
+.header2-list:hover {
+  background-color: #0619b6;
+}
+.show ul li{
+  background-color: #0619b6;
+  border: 1px solid white ;
+}
+
+
+
 
 .logo{
   width: 50%;
@@ -12,6 +39,9 @@
   margin-top: 10px;
   border-radius: 10px 0px 0px 10px;
 }
+
+
+
 
 
 main , .purify-promiceinfo{
@@ -71,6 +101,9 @@ main , .purify-promiceinfo{
   padding: 4px;
   
 }
+.purify-promiceinfo a{
+  text-decoration: none;
+}
 
 
 @media screen and (max-width: 760px) {
@@ -80,16 +113,18 @@ main , .purify-promiceinfo{
   }
 }
 @media screen and (min-width: 760px) {
-  .bg-warning{
+  /* .bg-warning{
     height: 50px;
-  }
+  } */
   
   
 }
 
-footer{
-  height: 200px;
+.footer-nav-list{
+  background-color: #4b5bdd;
+
 }
+
 
 
 
